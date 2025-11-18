@@ -1,0 +1,1 @@
+cmd_/usr/src/pxt4/jbd3/jbd3.o := ld -m elf_x86_64  -z max-page-size=0x200000 -z noexecstack     -r -o /usr/src/pxt4/jbd3/jbd3.o /usr/src/pxt4/jbd3/transaction.o /usr/src/pxt4/jbd3/commit.o /usr/src/pxt4/jbd3/recovery.o /usr/src/pxt4/jbd3/checkpoint.o /usr/src/pxt4/jbd3/revoke.o /usr/src/pxt4/jbd3/journal.o
