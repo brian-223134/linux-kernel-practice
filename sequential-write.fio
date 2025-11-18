@@ -1,0 +1,21 @@
+ ; --start job file --
+
+[global]
+name=fio-sequential-write
+directory=/mnt/test
+;filename=fio-sequential-write
+rw=write
+bs=4K
+direct=0
+numjobs=12
+;verify=meta
+
+;Mem size: 9.7 GB
+;total size := 2.4 GB
+
+[file1]
+size=240M
+;ioengine=libaio
+group_reporting
+; -- end job file --
+
