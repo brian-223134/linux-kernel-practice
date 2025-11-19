@@ -6,6 +6,3 @@
 - VM: Virtual Box (with Extension package)
 - Distros: Ubuntu 20.04
 - linux version (Tested environment): 5.4.214 <br>
-
-# project directory
-
