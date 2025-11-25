@@ -16,7 +16,6 @@ my_mutex-objs := linked_list_impl_mutex.o calclock.o
 
 # 3. RW Semaphore Module
 # Output: my_rwsem.ko
-# (Note: Preserving the typo 'imple' in the source filename)
 obj-m += my_rwsem.o
 my_rwsem-objs := linked_list_impl_rwsema.o calclock.o
 
