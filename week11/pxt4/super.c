@@ -56,7 +56,7 @@
 #include "fsmap.h"
 
 #include "calclock.h"
-//KTDEC(pxt4_file_write_iter);
+KTDEC(pxt4_file_write_iter);
 KTDEC(balance_dirty_pages_ratelimited);
 
 #define CREATE_TRACE_POINTS
@@ -6340,9 +6340,6 @@ out7:
 }
 
 
-// Code for Assignment7
-//extern unsigned long long file_write_iter_time, file_write_iter_count;
-
 static void __exit pxt4_exit_fs(void)
 {
 	pxt4_destroy_lazyinit_thread();
@@ -6358,10 +6355,8 @@ static void __exit pxt4_exit_fs(void)
 	pxt4_exit_es();
 	pxt4_exit_pending();
 
-	/*printk("pxt4_file_write_iter is called %llu times and the time interval is %lluns\n",
-		file_write_iter_count, file_write_iter_time);*/
 
-//	ktprint(1, pxt4_file_write_iter);
+	ktprint(1, pxt4_file_write_iter);
 	ktprint(1, balance_dirty_pages_ratelimited);
 }
 

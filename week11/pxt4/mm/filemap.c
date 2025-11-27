@@ -3373,7 +3373,7 @@ ssize_t __pxt4_generic_file_write_iter(struct kiocb *iocb, struct iov_iter *from
 			 */
 		}
 	} else {
-		written = generic_perform_write(file, from, iocb->ki_pos);
+		written = pxt4_generic_perform_write(file, from, iocb->ki_pos);
 		if (likely(written > 0))
 			iocb->ki_pos += written;
 	}
