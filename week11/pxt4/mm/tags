@@ -1,0 +1,107 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ALLOC_CMA	internal.h	550;"	d
+ALLOC_CPUSET	internal.h	549;"	d
+ALLOC_HARDER	internal.h	547;"	d
+ALLOC_HIGH	internal.h	548;"	d
+ALLOC_KSWAPD	internal.h	556;"	d
+ALLOC_NOFRAGMENT	internal.h	552;"	d
+ALLOC_NOFRAGMENT	internal.h	554;"	d
+ALLOC_NO_WATERMARKS	internal.h	531;"	d
+ALLOC_OOM	internal.h	542;"	d
+ALLOC_OOM	internal.h	544;"	d
+ALLOC_WMARK_HIGH	internal.h	530;"	d
+ALLOC_WMARK_LOW	internal.h	529;"	d
+ALLOC_WMARK_MASK	internal.h	534;"	d
+ALLOC_WMARK_MIN	internal.h	528;"	d
+GFP_BOOT_MASK	internal.h	27;"	d
+GFP_CONSTRAINT_MASK	internal.h	30;"	d
+GFP_RECLAIM_MASK	internal.h	21;"	d
+GFP_SLAB_BUG_MASK	internal.h	33;"	d
+MAX_RECLAIM_RETRIES	internal.h	83;"	d
+MMINIT_TRACE	internal.h	/^	MMINIT_TRACE$/;"	e	enum:mminit_level
+MMINIT_VERIFY	internal.h	/^	MMINIT_VERIFY,$/;"	e	enum:mminit_level
+MMINIT_WARNING	internal.h	/^	MMINIT_WARNING,$/;"	e	enum:mminit_level
+NODE_RECLAIM_FULL	internal.h	497;"	d
+NODE_RECLAIM_NOSCAN	internal.h	496;"	d
+NODE_RECLAIM_SOME	internal.h	498;"	d
+NODE_RECLAIM_SUCCESS	internal.h	499;"	d
+__MM_INTERNAL_H	internal.h	8;"	d
+__find_buddy_pfn	internal.h	/^__find_buddy_pfn(unsigned long page_pfn, unsigned int order)$/;"	f
+__pxt4_generic_file_write_iter	filemap.c	/^ssize_t __pxt4_generic_file_write_iter(struct kiocb *iocb, struct iov_iter *from)$/;"	f
+ac_classzone_idx	internal.h	122;"	d
+alloc_context	internal.h	/^struct alloc_context {$/;"	s
+alloc_flags	internal.h	/^	const unsigned int alloc_flags;	\/* alloc flags of a direct compactor *\/$/;"	m	struct:compact_control
+balance_dirty_pages_ratelimited	filemap.c	/^KTDEF(balance_dirty_pages_ratelimited);$/;"	v
+can_madv_lru_vma	internal.h	/^static inline bool can_madv_lru_vma(struct vm_area_struct *vma)$/;"	f
+capture_control	internal.h	/^struct capture_control {$/;"	s
+cc	internal.h	/^	struct compact_control *cc;$/;"	m	struct:capture_control	typeref:struct:capture_control::compact_control
+classzone_idx	internal.h	/^	const int classzone_idx;	\/* zone index of a direct compactor *\/$/;"	m	struct:compact_control
+clear_page_mlock	internal.h	/^static inline void clear_page_mlock(struct page *page) { }$/;"	f
+compact_control	internal.h	/^struct compact_control {$/;"	s
+contended	internal.h	/^	bool contended;			\/* Signal lock or sched contention *\/$/;"	m	struct:compact_control
+direct_compaction	internal.h	/^	bool direct_compaction;		\/* False from kcompactd or \/proc\/... *\/$/;"	m	struct:compact_control
+fast_search_fail	internal.h	/^	unsigned short fast_search_fail;\/* failures to use free list searches *\/$/;"	m	struct:compact_control
+fast_start_pfn	internal.h	/^	unsigned long fast_start_pfn;	\/* a pfn to start linear scan from *\/$/;"	m	struct:compact_control
+flush_tlb_batched_pending	internal.h	/^static inline void flush_tlb_batched_pending(struct mm_struct *mm)$/;"	f
+free_pfn	internal.h	/^	unsigned long free_pfn;		\/* isolate_freepages search base *\/$/;"	m	struct:compact_control
+freepages	internal.h	/^	struct list_head freepages;	\/* List of free pages to migrate to *\/$/;"	m	struct:compact_control	typeref:struct:compact_control::list_head
+gfp_mask	internal.h	/^	const gfp_t gfp_mask;		\/* gfp mask of a direct compactor *\/$/;"	m	struct:compact_control
+high_zoneidx	internal.h	/^	enum zone_type high_zoneidx;$/;"	m	struct:alloc_context	typeref:enum:alloc_context::zone_type
+ignore_block_suitable	internal.h	/^	bool ignore_block_suitable;	\/* Scan blocks considered unsuitable *\/$/;"	m	struct:compact_control
+ignore_skip_hint	internal.h	/^	bool ignore_skip_hint;		\/* Scan blocks even if marked skip *\/$/;"	m	struct:compact_control
+is_cow_mapping	internal.h	/^static inline bool is_cow_mapping(vm_flags_t flags)$/;"	f
+is_data_mapping	internal.h	/^static inline bool is_data_mapping(vm_flags_t flags)$/;"	f
+is_exec_mapping	internal.h	/^static inline bool is_exec_mapping(vm_flags_t flags)$/;"	f
+is_migrate_highatomic	internal.h	/^static inline bool is_migrate_highatomic(enum migratetype migratetype)$/;"	f
+is_migrate_highatomic_page	internal.h	/^static inline bool is_migrate_highatomic_page(struct page *page)$/;"	f
+is_stack_mapping	internal.h	/^static inline bool is_stack_mapping(vm_flags_t flags)$/;"	f
+maybe_unlock_mmap_for_io	internal.h	/^static inline struct file *maybe_unlock_mmap_for_io(struct vm_fault *vmf,$/;"	f
+mem_map_next	internal.h	/^static inline struct page *mem_map_next(struct page *iter,$/;"	f
+mem_map_offset	internal.h	/^static inline struct page *mem_map_offset(struct page *base, int offset)$/;"	f
+migrate_pfn	internal.h	/^	unsigned long migrate_pfn;	\/* isolate_migratepages search base *\/$/;"	m	struct:compact_control
+migratepages	internal.h	/^	struct list_head migratepages;	\/* List of pages being migrated *\/$/;"	m	struct:compact_control	typeref:struct:compact_control::list_head
+migratetype	internal.h	/^	int migratetype;		\/* migratetype of direct compactor *\/$/;"	m	struct:compact_control
+migratetype	internal.h	/^	int migratetype;$/;"	m	struct:alloc_context
+mlock_migrate_page	internal.h	/^static inline void mlock_migrate_page(struct page *new, struct page *old) { }$/;"	f
+mlock_migrate_page	internal.h	/^static inline void mlock_migrate_page(struct page *newpage, struct page *page)$/;"	f
+mlock_vma_page	internal.h	/^static inline void mlock_vma_page(struct page *page) { }$/;"	f
+mminit_dprintk	internal.h	/^static inline void mminit_dprintk(enum mminit_level level,$/;"	f
+mminit_dprintk	internal.h	457;"	d
+mminit_level	internal.h	/^enum mminit_level {$/;"	g
+mminit_validate_memmodel_limits	internal.h	/^static inline void mminit_validate_memmodel_limits(unsigned long *start_pfn,$/;"	f
+mminit_verify_pageflags_layout	internal.h	/^static inline void mminit_verify_pageflags_layout(void)$/;"	f
+mminit_verify_zonelist	internal.h	/^static inline void mminit_verify_zonelist(void)$/;"	f
+mode	internal.h	/^	enum migrate_mode mode;		\/* Async or sync migration mode *\/$/;"	m	struct:compact_control	typeref:enum:compact_control::migrate_mode
+munlock_vma_pages_all	internal.h	/^static inline void munlock_vma_pages_all(struct vm_area_struct *vma)$/;"	f
+no_set_skip_hint	internal.h	/^	bool no_set_skip_hint;		\/* Don't mark blocks for skipping *\/$/;"	m	struct:compact_control
+node_reclaim	internal.h	/^static inline int node_reclaim(struct pglist_data *pgdat, gfp_t mask,$/;"	f
+nodemask	internal.h	/^	nodemask_t *nodemask;$/;"	m	struct:alloc_context
+nr_freepages	internal.h	/^	unsigned int nr_freepages;	\/* Number of isolated free pages *\/$/;"	m	struct:compact_control
+nr_migratepages	internal.h	/^	unsigned int nr_migratepages;	\/* Number of pages to migrate *\/$/;"	m	struct:compact_control
+order	internal.h	/^	int order;			\/* order a direct compactor needs *\/$/;"	m	struct:compact_control
+page	internal.h	/^	struct page *page;$/;"	m	struct:capture_control	typeref:struct:capture_control::page
+page_order	internal.h	/^static inline unsigned int page_order(struct page *page)$/;"	f
+page_order_unsafe	internal.h	253;"	d
+pageblock_pfn_to_page	internal.h	/^static inline struct page *pageblock_pfn_to_page(unsigned long start_pfn,$/;"	f
+preferred_zoneref	internal.h	/^	struct zoneref *preferred_zoneref;$/;"	m	struct:alloc_context	typeref:struct:alloc_context::zoneref
+pxt4_generic_perform_write	filemap.c	/^KTDEF(pxt4_generic_perform_write);$/;"	v
+pxt4_generic_perform_write	filemap.c	/^ssize_t pxt4_generic_perform_write(struct file *file,$/;"	f
+ra_submit	internal.h	/^static inline unsigned long ra_submit(struct file_ra_state *ra,$/;"	f
+rescan	internal.h	/^	bool rescan;			\/* Rescanning the same pageblock *\/$/;"	m	struct:compact_control
+search_order	internal.h	/^	short search_order;		\/* order to start a fast search at *\/$/;"	m	struct:compact_control
+set_page_refcounted	internal.h	/^static inline void set_page_refcounted(struct page *page)$/;"	f
+spread_dirty_pages	internal.h	/^	bool spread_dirty_pages;$/;"	m	struct:alloc_context
+total_free_scanned	internal.h	/^	unsigned long total_free_scanned;$/;"	m	struct:compact_control
+total_migrate_scanned	internal.h	/^	unsigned long total_migrate_scanned;$/;"	m	struct:compact_control
+try_to_unmap_flush	internal.h	/^static inline void try_to_unmap_flush(void)$/;"	f
+try_to_unmap_flush_dirty	internal.h	/^static inline void try_to_unmap_flush_dirty(void)$/;"	f
+vma_address	internal.h	/^vma_address(struct page *page, struct vm_area_struct *vma)$/;"	f
+vma_address_end	internal.h	/^vma_address_end(struct page *page, struct vm_area_struct *vma)$/;"	f
+whole_zone	internal.h	/^	bool whole_zone;		\/* Whole zone should\/has been scanned *\/$/;"	m	struct:compact_control
+zone	internal.h	/^	struct zone *zone;$/;"	m	struct:compact_control	typeref:struct:compact_control::zone
+zonelist	internal.h	/^	struct zonelist *zonelist;$/;"	m	struct:alloc_context	typeref:struct:alloc_context::zonelist
